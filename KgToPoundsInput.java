@@ -4,7 +4,7 @@ class NewKilogramsToPounds {
     public static void main(String[] args) {
     Double kilograms;
     
-    System.out.println("Type double and press ENTER:");
+    System.out.println("Type weight in KG and press ENTER:");
     Scanner inputScanner = new java.util.Scanner(System.in);
 
     kilograms = inputScanner.nextDouble();
